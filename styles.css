@@ -1,0 +1,75 @@
+body{
+    background: rgb(46, 43, 43);
+    color: white;
+    margin: 0;
+    padding:0;
+}
+header{background-color: black;
+    background-image: url("images/pai.jpg.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center ;
+    height: 700px;
+    
+}
+
+.features{
+    background: white;
+    color:rgb(66, 51, 51);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+    
+}
+
+.features figure img{
+    border-radius: 20%;
+    box-shadow: rgb(34, 34, 34) 0 0 10px;
+    width : 300px
+}
+
+footer{
+    background:black;
+    padding: 100px;
+}
+header .logo a{ 
+    background-image: url("images/artisen\ bakery\ logo.png.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    top: -15px;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -9999999px;
+    width: 300px;
+/* fffff */
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+a{
+    color:rgb(255, 140, 0);
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+a:hover{color: rgb(255, 0, 200);
+    text-decoration: none;
+
+}
